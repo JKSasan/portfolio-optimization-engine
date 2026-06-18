@@ -5,7 +5,7 @@ An object-oriented quantitative engine implementing Markowitz Mean-Variance Opti
 
 A production-grade quantitative asset management engine built in Python. This project utilizes Modern Portfolio Theory (MPT) frameworks and matrix theory to calculate asset statistics, solve quadratic optimization constraints, map the Markowitz Efficient Frontier, and evaluate portfolio resilience under historical macroeconomic stress tests.
 
-## 🚀 Key Features
+## Key Features
 * **Automated Data Ingestion:** Asynchronously fetches historical pricing data for any arbitrary asset basket via the Yahoo Finance API.
 * **Matrix Optimization Engine:** Implements daily log-returns, annualized mean vector calculations, and dynamic covariance mapping.
 * **Algorithmic Asset Allocation:** Uses Sequential Least Squares Programming (SLSQP) to isolate the maximum Sharpe Ratio and Minimum Variance allocation weights.
@@ -13,7 +13,7 @@ A production-grade quantitative asset management engine built in Python. This pr
 
 ---
 
-## 📐 The Mathematical Framework
+## The Mathematical Framework
 
 The engine converts asset historical performance data into continuous vectors and metrics using standard linear algebra foundations:
 
@@ -30,7 +30,7 @@ The engine converts asset historical performance data into continuous vectors an
 
 ---
 
-## 📊 Visualizing the Efficient Frontier
+## Visualizing the Efficient Frontier
 
 The model runs 5,000 Monte Carlo portfolio simulations alongside the exact optimized matrix constraints to pinpoint the optimal risk-return profiles.
 
@@ -40,7 +40,7 @@ The model runs 5,000 Monte Carlo portfolio simulations alongside the exact optim
 
 ---
 
-## 🛠️ Repository Structure & Quick Start
+## Repository Structure & Quick Start
 
 ### Directory Blueprint
 ```text
