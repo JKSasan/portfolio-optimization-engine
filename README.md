@@ -1,6 +1,3 @@
-# portfolio-optimization-engine
-An object-oriented quantitative engine implementing Markowitz Mean-Variance Optimization. Dynamically constructs the Efficient Frontier via matrix optimization, solves for Max Sharpe and Minimum Variance portfolios, and includes a historical macro stress-testing framework.
-
 # Quantitative Portfolio Optimization & Risk Analysis Engine
 
 A production-grade quantitative asset management engine built in Python. This project utilizes Modern Portfolio Theory (MPT) frameworks and matrix theory to calculate asset statistics, solve quadratic optimization constraints, map the Markowitz Efficient Frontier, and evaluate portfolio resilience under historical macroeconomic stress tests.
